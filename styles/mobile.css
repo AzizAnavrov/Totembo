@@ -1,0 +1,144 @@
+@media (max-width: 1200px) {
+    .header__nav-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .content__box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .header__nav-special-box {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px 20px;
+        margin-bottom: -3opx;
+    }
+
+    .sale__box-item-sale {
+        font-size: 16px;
+        width: 100px;
+        height: 30px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .sale__box-item-link {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer__box {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .footer__box-second {
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .footer__title-second {
+        text-align: center;
+    }
+
+    .sale__box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news__box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .header__nav-box-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content__box-first-item-discount {
+        width: 60px;
+        height: 30px;
+        left: 10px;
+        top: 10px;
+        font-size: 16px;
+    }
+
+    .content__box-second-discount {
+        width: 60px;
+        height: 30px;
+        left: 10px;
+        top: 10px;
+        font-size: 16px;
+    }
+
+    .sale__box-item-info {
+        padding: 20px 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .content__box-second-infoc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content__box-second-title {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .news__box-item-span {
+        font-size: 14px;
+        top: 6px;
+        left: 6px;
+        padding: 15px;
+        width: 120px;
+        height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__special-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer__title {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .footer__box-second-info {
+        flex-wrap: wrap;
+    }
+
+    .title,
+    .sale__title-end {
+        font-size: 20px;
+    }
+
+    .news__box-item-title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+}
